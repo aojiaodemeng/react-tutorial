@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\傲娇的萌\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\傲娇的萌\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\傲娇的萌\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;%YARN_PATH%\bin;C:\Program Files\nodejs\bin;C:\Program Files\nodejs;C:\Program Files\Microsoft VS Code\bin;C:\Users\傲娇的萌\AppData\Local\Microsoft\WindowsApps;C:\Windows\system32\node_modules\.bin;C:\Users\傲娇的萌\AppData\Roaming\npm;C:\;rogram Files\Docker Toolbox;C:\Program Files\Docker Toolbox;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\傲娇的萌\AppData\Local\Yarn\Cache\v4\npm-inherits-2.0.1-b17d08d326b4423e568eff719f91b0b1cbdf69f1\node_modules\inherits\inherits.js' -> 'C:\OwnProject\react-tutorial\node_modules\assert\node_modules\inherits\inherits.js'
+
+npm manifest: 
+  {
+    "name": "react-tutorial",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "set PORT=8001&&umi dev",
+      "build": "umi build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aojiaodemeng/react-tutorial.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/aojiaodemeng/react-tutorial/issues"
+    },
+    "homepage": "https://github.com/aojiaodemeng/react-tutorial#readme",
+    "devDependencies": {
+      "umi": "^2.6.16",
+      "umi-plugin-react": "^1.7.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
